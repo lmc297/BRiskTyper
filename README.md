@@ -11,7 +11,7 @@ Post issues at https://github.com/lmc297/BRiskTyper/issues.
 
 ## Installation
 
-XXX
+XXX Stay tuned! XXX
 
 ------------------------------------------------------------------------
 
