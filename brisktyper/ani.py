@@ -121,6 +121,9 @@ class Ani:
 			elif taxon == "typestrains":
 				return f"{best.typestrain}({best.ani})"
 
+			elif taxon == "cytotoxicity":
+				return f"{best.cytotoxicity}({best.ani})"
+
 		else:
 			if taxon == "species":
 				return "(Species unknown)"
@@ -130,6 +133,8 @@ class Ani:
 				return "(Pseudo-gene flow unit unknown)"
 			elif taxon == "typestrains":
 				return "(Type strain unknown)"
+			elif taxon == "cytotoxicity":
+				return "(Cytotoxicity strain unknown)"
 
 	def check_fragmentation(self, sequences, fragment_length):
 		length_total = 0
