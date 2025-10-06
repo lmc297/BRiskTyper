@@ -21,7 +21,7 @@ from .mlst import Mlst
 from .print_final_results import FinalResults
 
 __author__ = "Laura M. Carroll <lmc297@cornell.edu>"
-__version__ = "0.1.4"
+__version__ = "0.1.5"
 
 
 @contextlib.contextmanager
