@@ -1,8 +1,8 @@
 id	cytotoxicity_strain	url
-PS00125_contigs.fna.gz	PS00125	https://zenodo.org/records/17191086/files/PS00125_contigs.fna.gz
-PS00193_contigs.fna.gz	PS00193	https://zenodo.org/records/17191086/files/PS00193_contigs.fna.gz
-PS00433_contigs.fna.gz	PS00433	https://zenodo.org/records/17191086/files/PS00433_contigs.fna.gz
-PS00518_contigs.fna.gz	PS00518	https://zenodo.org/records/17191086/files/PS00518_contigs.fna.gz
+PS00125_contigs.fna.gz	PS00125	https://zenodo.org/records/17191086/files
+PS00193_contigs.fna.gz	PS00193	https://zenodo.org/records/17191086/files
+PS00433_contigs.fna.gz	PS00433	https://zenodo.org/records/17191086/files
+PS00518_contigs.fna.gz	PS00518	https://zenodo.org/records/17191086/files
 PS00194_GCA_002250945.fna.gz	PS00194	https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/002/250/945/GCA_002250945.2_ASM225094v2
 PS00649_GCA_029692665.fna.gz	PS00649	https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/029/692/665/GCA_029692665.1_PDT001182332.3
 PS00402_GCA_029692905.fna.gz	PS00402	https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/029/692/905/GCA_029692905.1_PDT001182164.3
