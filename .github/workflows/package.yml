@@ -57,6 +57,8 @@ jobs:
     environment: PyPI
     runs-on: ubuntu-latest
     name: Upload
+    permissions:
+      id-token: write
     needs:
     - sdist
     - test-sdist
