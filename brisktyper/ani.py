@@ -21,12 +21,12 @@ class Ani:
 	run_fastani
 	purpose: runs fastANI for species/subspecies assignment and selects match with highest ANI
 	input:
-		taxon = "species", "subspecies", or "geneflow"; corresponds to directory of genomes to use
+		taxon = "species", "subspecies", "geneflow", or "cytotoxicity"; corresponds to directory of genomes to use
 		fasta = query genome for fastANI
 		final_results_directory = path to BRiskTyper final results directory
 		prefix = genome prefix to use for output files
 	output:
-		species or subspecies producing highest ANI value
+		species, subspecies, or strain producing highest ANI value
 
 	"""
 
@@ -122,7 +122,7 @@ class Ani:
 				return f"{best.typestrain}({best.ani})"
 
 			elif taxon == "cytotoxicity":
-				return f"{best.cytotoxicity}({best.ani})"
+				return f"{best.cytotoxicity_strain}({best.ani})"
 
 		else:
 			if taxon == "species":
