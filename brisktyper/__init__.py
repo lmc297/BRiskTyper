@@ -21,7 +21,7 @@ from .mlst import Mlst
 from .print_final_results import FinalResults
 
 __author__ = "Laura M. Carroll <lmc297@cornell.edu>"
-__version__ = "0.1.9"
+__version__ = "0.1.10"
 
 
 @contextlib.contextmanager
@@ -391,6 +391,7 @@ def run_pipeline(args):
 		subspecies = final_subspecies,
 		geneflow = final_geneflow,
 		typestrains = final_typestrains,
+		cytotoxicity = final_cytotoxicity,
 		anthracis = anthracis,
 		emetic = emetic,
 		nhe = nhe,
@@ -404,7 +405,7 @@ def run_pipeline(args):
 		mlst_final = mlst_final,
 		panC_final = panC_final)
 
-	get_final_results.print_final_results(final_results_directory, infile, prefix, final_species, final_subspecies, final_geneflow, final_typestrains, anthracis, emetic, nhe, hbl, cytK, sph, cap, has, bps, bt_final, mlst_final, panC_final)
+	get_final_results.print_final_results(final_results_directory, infile, prefix, final_species, final_subspecies, final_geneflow, final_typestrains, final_cytotoxicity, anthracis, emetic, nhe, hbl, cytK, sph, cap, has, bps, bt_final, mlst_final, panC_final)
 
 	for blastdb_ext in ("nsq", "nin", "nhr", "ndb", "not", "ntf", "nto"):
 		blastdb_file = "{}.{}".format(infile, blastdb_ext)
