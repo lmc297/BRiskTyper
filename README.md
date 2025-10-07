@@ -11,7 +11,10 @@ Post issues at https://github.com/lmc297/BRiskTyper/issues.
 
 ## Installation
 
-XXX Stay tuned! XXX To add XXX
+BRiskTyper can be installed via [pip](https://pypi.org/project/brisktyper/):
+```
+pip install brisktyper
+```
 
 ------------------------------------------------------------------------
 
