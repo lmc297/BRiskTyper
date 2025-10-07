@@ -22,7 +22,7 @@ pip install brisktyper
 
 ### If you found the BRiskTyper tool, its source code, and/or any of its associated databases useful, please cite:
 
-> XXX
+> To be updated
 
 ------------------------------------------------------------------------
 
